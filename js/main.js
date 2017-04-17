@@ -48,7 +48,7 @@ function refresh() {
 function drawWinLine(i) {
     x1 += 4;
     //translate, rotate, x, y, w, h
-    var line = [[false, false, 0, 31, 230, 8],[false, false, 0, 111, 230, 8],[false, false, 0, 191, 230, 8],[false, false, 31, 0, 8, 230],[false, false, 111, 0, 8, 230],[false, false, 191, 0, 8, 230],[false, -45, -4, 0, 8, 325],[true, 45, -4, 0, 8, 325]];
+    var line = [[false, false, 0, 31, 230, 8], [false, false, 0, 111, 230, 8], [false, false, 0, 191, 230, 8], [false, false, 31, 0, 8, 230], [false, false, 111, 0, 8, 230], [false, false, 191, 0, 8, 230], [false, -45, -4, 0, 8, 325], [true, 45, -4, 0, 8, 325]];
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.beginPath();
     ctx.fillStyle = "#F00";
